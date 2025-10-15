@@ -20,7 +20,11 @@
 
 	// Фикс скролла и блюра для андроида
 	document.body.classList?.remove("is-blurred");
-	GM_addStyle(`.isOpenMTubes { overflow: auto !important; }`);
+	GM_addStyle(`
+        .isOpenMTubes {
+            overflow: auto !important;
+        }
+    `);
 
 	Object.values(document.getElementsByTagName("link"))
 		.find(link => link.href.includes("css/modals_commons.css"))

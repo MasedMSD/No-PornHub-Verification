@@ -1,5 +1,5 @@
 [tampermonkey-link]: https://www.tampermonkey.net/index.php
-[npv-dist]: https://raw.githubusercontent.com/MasedMSD/No-PornHub-Verification/main/no-pornhub-verification.user.js
+[npv-dist]: https://github.com/MasedMSD/No-PornHub-Verification/raw/refs/heads/main/no-pornhub-verification.user.js
 [devmode-enable]: https://www.tampermonkey.net/faq.php#Q209
 [original-url]: https://github.com/lk-geimfari/rkn-sosatb
 

@@ -18,7 +18,9 @@
 	document.getElementById("ageDisclaimerMainBG")?.remove();
 	document.getElementById("ageDisclaimerOverlay")?.remove();
 
-	document.body.classList.remove("is-blurred");
+	// Фикс скролла и блюра для андроида
+	document.body.classList?.remove("is-blurred");
+	GM_addStyle(`.isOpenMTubes { overflow: auto !important; }`);
 
 	Object.values(document.getElementsByTagName("link"))
 		.find(link => link.href.includes("css/modals_commons.css"))

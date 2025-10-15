@@ -14,6 +14,7 @@
 // ==/UserScript==
 
 (function no_pornhub_verification() {
+	"use strict";
 	document.getElementsByClassName("ageDisclaimer")[0]?.remove();
 	document.getElementById("ageDisclaimerMainBG")?.remove();
 	document.getElementById("ageDisclaimerOverlay")?.remove();

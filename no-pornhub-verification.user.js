@@ -3,7 +3,7 @@
 // @namespace       npv
 // @version         1.0.0
 // @description:ru  Удаляет проверку на возраст на сайте PornHub
-// @descripyion     Removes age verification on the PornHub
+// @description     Removes age verification on the PornHub
 // @author          https://github.com/MasedMSD
 // @match           *://*.pornhub.com/*
 // @match           *://*.pornhub.org/*

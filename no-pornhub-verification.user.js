@@ -18,6 +18,8 @@
 	document.getElementById("ageDisclaimerMainBG")?.remove();
 	document.getElementById("ageDisclaimerOverlay")?.remove();
 
+	document.body.classList.remove("is-blurred");
+
 	Object.values(document.getElementsByTagName("link"))
 		.find(link => link.href.includes("css/modals_commons.css"))
 		?.remove(); // Без этого не работает скролл

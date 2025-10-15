@@ -12,15 +12,15 @@
 // ==/UserScript==
 
 (function no_pornhub_verification() {
-	document.getElementsByClassName("ageDisclaimer")[0].remove();
-	document.getElementById("ageDisclaimerMainBG").remove();
-	document.getElementById("ageDisclaimerOverlay").remove();
+	document.getElementsByClassName("ageDisclaimer")[0]?.remove();
+	document.getElementById("ageDisclaimerMainBG")?.remove();
+	document.getElementById("ageDisclaimerOverlay")?.remove();
 
 	Object.values(document.getElementsByTagName("link"))
 		.find(link => link.href.includes("css/modals_commons.css"))
-		.remove(); // Без этого не работает скролл
+		?.remove(); // Без этого не работает скролл
 
 	["container", "wrapper"].forEach(function (id) {
-		document.getElementById("age-verification-" + id).remove();
+		document.getElementById("age-verification-" + id)?.remove();
 	});
 })();

@@ -10,7 +10,7 @@
 // @icon            https://ei.phncdn.com/www-static/favicon.ico
 // @downloadURL     https://github.com/MasedMSD/No-PornHub-Verification/raw/refs/heads/main/no-pornhub-verification.user.js
 // @updateURL       https://github.com/MasedMSD/No-PornHub-Verification/raw/refs/heads/main/no-pornhub-verification.user.js
-// @grant           none
+// @grant           GM_addStyle
 // ==/UserScript==
 
 (function no_pornhub_verification() {

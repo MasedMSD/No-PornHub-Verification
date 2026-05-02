@@ -9,8 +9,10 @@
 // @match           *://*.pornhub.org/*
 // @match           *://*.spankbang.com/*
 // @icon            https://ei.phncdn.com/www-static/favicon.ico
-// @downloadURL     https://github.com/MasedMSD/No-PornHub-Verification/raw/refs/heads/main/no-pornhub-verification.user.js
-// @updateURL       https://github.com/MasedMSD/No-PornHub-Verification/raw/refs/heads/main/no-pornhub-verification.user.js
+// @homepageURL     https://github.com/MasedMSD/No-PornHub-Verification
+// @source          https://github.com/MasedMSD/No-PornHub-Verification.git
+// @downloadURL     https://raw.githubusercontent.com/MasedMSD/No-PornHub-Verification/master/no-pornhub-verification.user.js
+// @updateURL       https://raw.githubusercontent.com/MasedMSD/No-PornHub-Verification/master/no-pornhub-verification.user.js
 // @grant           GM_addStyle
 // ==/UserScript==
 

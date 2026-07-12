@@ -42,6 +42,13 @@ function autoplay(e) { //if mouseenter we get .target 1 element (video), not arr
         }
     `);
 
+	document.documentElement.classList.remove('isOpenMTubes');
+	document.body.classList.remove('isOpenMTubes');
+	
+	document.body.style.top = '';
+	document.body.style.overflow = '';
+	document.body.style.position = '';
+
 	Object.values(document.getElementsByTagName("link"))
 		.find(link => link.href.includes("css/modals_commons.css"))
 		?.remove(); // Без этого не работает скролл
